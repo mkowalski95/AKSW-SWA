@@ -35,7 +35,7 @@
             <Label Content="Titel" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             <Label Content="Preis" Grid.Column="0" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             <Label Content="Menge" Grid.Column="0" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            <TextBox Grid.Column="1" Grid.Row="0" Width="100" Height="25"/>
+            <TextBox Text="{Binding Title}" Grid.Column="1" Grid.Row="0" Width="100" Height="25"/>
             <TextBox Grid.Column="1" Grid.Row="1" Width="100" Height="25"/>
             <TextBox Grid.Column="1" Grid.Row="2" Width="100" Height="25"/>
             <Button Content="Hinzufügen" Grid.Column="1" Grid.Row="5" Click="Button_Click"/>
