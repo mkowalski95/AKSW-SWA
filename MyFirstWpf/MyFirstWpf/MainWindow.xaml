@@ -24,6 +24,11 @@
             <Button Content="Beispieltext 3" Margin="10" Height="20" Width="75"></Button>
             <Button Content="Beispieltext 4" Margin="10" Height="20" Width="75"></Button>
         </WrapPanel>
+        <!-- Dockpanel kann man anwenden mit Drag&Drop Navigation-->
+        <!-- Canvas: Absolute Positionierung-->
+        <Canvas Grid.Row="0" Grid.Column="0">
+            <Button Width="75" Height="20" Canvas.Left="10" Canvas.Right="10" Content="Hallo"></Button>
+        </Canvas>
         <StackPanel Orientation="Horizontal" Grid.Column="1" Grid.Row="2" Margin="10,5">
             <Button Content="Beispieltext" Margin="10" Height="20" Width="75"></Button>
             <Button Content="Beispieltext 2" Margin="10" Height="20" Width="75"></Button>
