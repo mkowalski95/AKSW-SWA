@@ -30,7 +30,6 @@
             <Button Content="Beispieltext 3" Margin="10" Height="20" Width="75"></Button>
             <Button Content="Beispieltext 4" Margin="10" Height="20" Width="75"></Button>
         </StackPanel>
-        <Button Grid.Column="1" Grid.Row="2" Content="Beispieltext" Height="25" Width="100"></Button>
         <!-- Kommentar (Zur Erinnerung) -->
     </Grid>
 </Window>
